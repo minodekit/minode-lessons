@@ -1,0 +1,18 @@
+{
+    "name": "minode-lesson01",
+    "version": "0.0.0",
+    "description": "Mi:Node Lesson 01",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "minode": "github:minodekit/pxt-minode#master"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
