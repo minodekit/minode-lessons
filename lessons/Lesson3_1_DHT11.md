@@ -4,9 +4,11 @@
 - Difficulty: Beginner
 
 ### Introduction
-DHT11温湿度传感器可以获取当前环境下的温度和湿度。
+
+这一节主要是学习DHT11模块的使用。DHT11温湿度传感器可以获取当前环境下的温度和湿度。
 
 ### Materials
+
 | Item |     Component          | Quantity |
 |------  |-------------------          |----------   |
 |    1   | Micro:bit                   |        1      |
@@ -16,7 +18,9 @@ DHT11温湿度传感器可以获取当前环境下的温度和湿度。
 |    5   | E-brick Cable            |        1     |
 
 ### Electronic Circuit
+
 First we need to build the electroic circuit.
+
 ![dfsd](./image/lesson01-switch/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
@@ -25,12 +29,16 @@ First we need to build the electroic circuit.
 
 ### Create Code
 
-#### Step 1: 
+#### Step 1: 通过按键获取温度！
+
  ![dfsd](./image/lesson31-DHT11/button-get-temperature.png)
-通过按下按键A获取当前的温度。
+ 
+通过按下按键A获取当前的温度，当前显示的是摄氏温度，你也可以选择显示华氏温度。
 
 #### Step 2: 当DHT11的温度发生变化时提示！
+
  ![dfsd](./image/lesson31-DHT11/dht-event.png)
+ 
 当检测到温度发生变化的时候，LED矩阵会显示数字1。
 
 ### Interaction
@@ -38,6 +46,7 @@ First we need to build the electroic circuit.
 > TODO:Add a gif/video/pic
 
 ### What next
+
 > 获取当前环境的湿度(华氏温度)。
 
 ### Reference

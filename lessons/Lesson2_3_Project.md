@@ -1,4 +1,4 @@
-## Lesson 2.3 Smart Socket
+## Lesson 2.3 Smart Socket Project
 
 - Duration: 10 minutes
 - Difficulty: Beginner
@@ -18,7 +18,9 @@
 |    7   | E-brick Cable            |        1     |
 
 ### Electronic Circuit
+
 First we need to build the electroic circuit.
+
 ![dfsd](./image/lesson01-switch/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
@@ -29,16 +31,22 @@ First we need to build the electroic circuit.
 
 ### Create Code
 
-#### Step 1: 检测声音发生变化!
- ![dfsd](./image/lesson213-project/light-relay.png)
-当检测到周围的声音发生变化时LED矩阵显示不同的数据。
+#### Step 1: 利用光线传感器控制!
 
-#### Step 2: 利用声音控制继电器！
+ ![dfsd](./image/lesson213-project/light-relay.png)
+ 
+首先添加光线控制模块，当周围环境的光照强度变低的时候接通继电器，否则断开连接。
+
+#### Step 2: 加入声音控制继电器！
+
  ![dfsd](./image/lesson213-project/light-mic-relay.png)
+ 
 当声音超过设置的阈值大于声音等级的时候继电器打开。
 
 #### Step 3: 添加按键控制模块！
+
  ![dfsd](./image/lesson213-project/button-relay.png)
+ 
 添加按键控制，按键A可以手动控制继电器接通，按键B用来控制继电器断开连接。
 
 ### Interaction

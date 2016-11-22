@@ -1,10 +1,11 @@
-## Lesson 3.5 Robot
+## Lesson 3.5 Robot Project
 
 - Duration: 10 minutes
 - Difficulty: Beginner
 
 ### Introduction
-Speaker
+
+介绍完需要用到的模块，我们开始完成我们的Robot的制作。
 
 ### Materials
 | Item |     Component          | Quantity |
@@ -19,7 +20,9 @@ Speaker
 |    8   | E-brick Cable            |        1     |
 
 ### Electronic Circuit
+
 First we need to build the electroic circuit.
+
 ![dfsd](./image/lesson01-switch/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
@@ -33,23 +36,33 @@ First we need to build the electroic circuit.
 ### Create Code
 
 #### Step 1: 添加获取温湿度的模块！
+
  ![dfsd](./image/lesson35-Project/button-dht11.png)
-按下按键A可以获取当前的温湿度值。
+ 
+这样使我们可以通过按键A可以获取当前的温湿度值。
 
 #### Step 2: 温度控制风扇！
+
  ![dfsd](./image/lesson35-Project/button-dht-fan.png)
+ 
 当温度大于一个设定的值（23摄氏度）的时候电机开始工作。
 
 #### Step 3: 添加PIR模块！
+
  ![dfsd](./image/lesson35-Project/button-dht-fan-pir.png)
-当人靠近的时候LED矩阵会显示一个笑脸。
+ 
+当有移动的物体靠近的时候LED矩阵会显示一个笑脸。
 
 #### Step 4: 添加警戒模式！
+
  ![dfsd](./image/lesson35-Project/guard.png)
+ 
 警戒模式下当人靠近的时候LED矩阵会显示一个×的图形。
 
 #### Step 4: 添加扬声器模块！
+
  ![dfsd](./image/lesson35-Project/speaker.png)
+ 
 警戒模式下当人靠近的时候LED矩阵会显示一个×的图形,同时扬声器发出声音。
 
 ### Interaction
