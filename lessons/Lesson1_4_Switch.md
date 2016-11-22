@@ -29,11 +29,11 @@ First we need to build the electroic circuit.
 
 ### Create Code
 
-#### Step 1: 用开关控制是否显示!
+#### Step 1: 用开关控制LED矩阵是否显示图案!
 
 ![dfsd](./image/lesson04-Switch/control-face.png)
 
-你可以从给定的选项中选择7种不同的颜色。
+我们使用Switch模块来控制LED矩阵是否显示一个笑脸。
 
 #### Step 2: 用开关来控制灯的亮灭!
 
