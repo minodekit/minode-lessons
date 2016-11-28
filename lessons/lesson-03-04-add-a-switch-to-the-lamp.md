@@ -13,6 +13,7 @@ This lesson we'll learn how to use the Switch module. We'll use the Switch modul
 | ---- | ----------------- | -------- |
 | 1    | Micro:bit         | 1        |
 | 2    | Connect Board     | 1        |
+| 3    | RGB module     | 1        |
 | 3    | Switch module     | 1        |
 | 4    | USB Micro-B Cable | 2        |
 | 5    | E-brick Cable     | 1        |
@@ -21,15 +22,12 @@ This lesson we'll learn how to use the Switch module. We'll use the Switch modul
 
 First we need to build the electroic circuit.
 
-> **TODO**
->
-> [Software Team] Insert the electronic picture
-
-![dfsd](./_image/lesson-03-01/electronic_circuit.png)
+![dfsd](./_image/lesson-03-04/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
 | ---------------- | -------------------------- | ---------------- | ----------- |
-| Switch#1         | D15                        | pin15/pin16      | Digital IO  |
+| RGB#1         | D15                        | pin15/pin16      | Digital IO  |
+| Switch#1     | A0                           | pin0                 | Digital IO  |
 
 ### Create Code
 

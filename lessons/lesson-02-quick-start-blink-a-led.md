@@ -31,7 +31,7 @@ First we need to build the electronic circuit.
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
 | ---------------- | -------------------------- | ---------------- | ----------- |
-| RGB-LED#1        | A0                         | pin0             | Digital IO  |
+| RGB-LED#1        | D15                         | pin15/pin16             | Digital IO  |
 
 
 ## Create Code

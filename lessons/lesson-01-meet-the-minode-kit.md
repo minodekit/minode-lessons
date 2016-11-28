@@ -38,11 +38,11 @@ For this kit, there is no need for soldering, plug then use, the construction of
 
 The kit is composed of a connect board and several sensor modules. The connect board is a bridge between the micro:bit main board and the sensor modules. It converts the micro:bit edge connector into serveral E-brick connector. The sensor modules can be attached to it by cable.
 
-![Conect Board](./_image/lesson-01/connect_module.jpg)
+![Conect Board](./_image/lesson-01/connect_module.png)
 
 #### E-brick Connector
 
-The E-brick connectors are compatible with the standard Grove from Seeed. It¡¯s a 2.0mm 1x4 connector. With signals include: 1 VCC, 1GND, 2 analog / digital signal.
+The E-brick connectors are compatible with the standard Grove from Seeed. It's a 2.0mm 1x4 connector. With signals include: 1 VCC, 1GND, 2 analog / digital signal.
 
 An E-brick connector have 4 pins:
 

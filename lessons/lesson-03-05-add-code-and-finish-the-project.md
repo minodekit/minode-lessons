@@ -23,11 +23,7 @@ We have learned how to use the modules. And now let's implement the smart lamps 
 
 First we need to build the electroic circuit.
 
-> **TODO**
->
-> [Software Team] Insert the electronic picture
-
-![dfsd](./_image/lesson-03-01/electronic_circuit.png)
+![dfsd](./_image/lesson-03-05/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
 | ---------------- | -------------------------- | ---------------- | ----------- |

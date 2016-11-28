@@ -21,11 +21,7 @@ In this lesson, We'll learn how to use the DHT11 module. It can be used to senso
 
 First we need to build the electroic circuit.
 
-> **TODO**
->
-> [Software Team] Insert the electronic picture
-
-![dfsd](./_image/lesson-03-01/electronic_circuit.png)
+![dfsd](./_image/lesson-05-01/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
 | ---------------- | -------------------------- | ---------------- | ----------- |

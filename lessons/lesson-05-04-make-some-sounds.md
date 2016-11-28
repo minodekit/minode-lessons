@@ -19,11 +19,7 @@ In this lesson we'll learn how to make some sounds using the Speaker module.
 ### Electronic Circuit
 First we need to build the electroic circuit.
 
-> **TODO**
->
-> [Software Team] Insert the electronic picture
-
-![dfsd](./_image/lesson-03-01/electronic_circuit.png)
+![dfsd](./_image/lesson-05-04/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
 | ---------------- | -------------------------- | ---------------- | ----------- |

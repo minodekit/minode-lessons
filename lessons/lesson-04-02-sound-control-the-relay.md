@@ -22,11 +22,7 @@ The MIC/Sound sensor can sensor the ambient noise. We divide the ambient noise i
 
 First we need to build the electroic circuit.
 
-> **TODO**
->
-> [Software Team] Insert the electronic picture
-
-![dfsd](./_image/lesson-03-01/electronic_circuit.png)
+![dfsd](./_image/lesson-04-02/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
 | ---------------- | -------------------------- | ---------------- | ----------- |

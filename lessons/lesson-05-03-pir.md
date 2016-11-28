@@ -19,10 +19,6 @@ In this lesson we'll learn how to use the PIR module to monitor things moving.
 
 First we need to build the electroic circuit.
 
-> **TODO**
->
-> [Software Team] Insert the electronic picture
-
 ![dfsd](./_image/lesson-03-01/electronic_circuit.png)
 
 | Sensor Module ID | Connect Board Connector ID | Micro:bit Pin ID | Signal Type |
