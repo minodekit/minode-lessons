@@ -5,7 +5,7 @@
 
 ### Introduction
 
-The MIC/Sound sensor can sensor the ambient noise. We divide the ambient noise into 5 levels with one being the quietest and five being the noisiest.
+The MIC/Sound sensor can sensor the ambient noise. In this lesson when the noise is detected the Relay module will open and we can close the relay by pressing button A.
 
 ### Materials
 
@@ -31,15 +31,9 @@ First we need to build the electroic circuit.
 
 ### Create Code
 
-#### Step 1: Monitor the ambient noise
+#### Step 1:  Ambient noise control the Relay
 
- ![dfsd](./_image/lesson-04-02/mic-event.png)
-
-
-
-#### Step 2:  Ambient noise control the Relay
-
- ![dfsd](./_image/lesson-04-02/mic-button.png)
+ ![dfsd](./_image/lesson-04-02/mic_event.png)
 
 
 
@@ -51,6 +45,6 @@ First we need to build the electroic circuit.
 
 ### What next
 
-1. Implement a program: Display a char when the ambient noise level > 3, and another char when the ambient noise level < 3.
+1. Implement a program: Open the relay and hold the status for 3 seconds. Close the relay after 3 seconds.
 
 ### Reference
